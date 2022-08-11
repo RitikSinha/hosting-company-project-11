@@ -195,7 +195,85 @@ nav {
 }
 
 /* testimonial */
-
+.testimonial {
+  padding: 80px 80px 50px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading-testimonial {
+  font-size: 2rem;
+}
+.subheading {
+  color: #808080;
+  padding: 30px 15vw;
+}
+.testimonial-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 30px;
+}
+.avtar-card {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+  gap: 10px;
+}
+.circle-avtar {
+  width: 40px;
+  height: 40px;
+  border-radius: 200px;
+  background-color: #414141;
+}
+.testimonail-card {
+  padding: 30px 20px;
+  width: 30vw;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  border-radius: 5px;
+}
+/* register now */
+.blue {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='100%25' width='100%25'%3E%3Cdefs%3E%3Cpattern id='doodad' width='300' height='300' viewBox='0 0 40 40' patternUnits='userSpaceOnUse' patternTransform='rotate(155)'%3E%3Crect width='100%25' height='100%25' fill='rgba(190, 227, 248,1)'/%3E%3Cpath d='M0 15h40v10h-40z' fill='rgba(144, 205, 244,1)'/%3E%3Cpath d='M-40 15h20l1 5l-1 5h-20l1-5zM0 15h20l1 5l-1 5h-20l1-5z' fill='rgba(144, 205, 244,1)'/%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23doodad)' height='200%25' width='200%25'/%3E%3C/svg%3E ");
+}
+.blue-wrapper {
+  padding: 100px 100px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(
+    to right bottom,
+    hsla(199, 69%, 65%, 0.8),
+    rgba(0, 163, 243, 0.8),
+    rgba(0, 135, 255, 0.8),
+    hsla(216, 100%, 50%, 0.8),
+    rgba(5, 49, 245, 0.8)
+  );
+}
+.left h1 {
+  color: #ffffff;
+  font-size: 2rem;
+}
+.left p {
+  color: #ffffff;
+  width: 30vw;
+  margin-top: 30px;
+}
+.btn-outlined {
+  border: #fff 3px solid;
+  padding: 20px 40px;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 1rem;
+  text-align: center;
+}
 /* footer */
 footer {
   padding: 150px 100px 100px 100px;
