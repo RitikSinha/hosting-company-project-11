@@ -5,13 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hosting Company</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <section class="header">
         <nav>
-            <div class="logo">
-                <img src="./assets/Logo.png" alt="my logo">
+            <div >
+                <img class="logo" src="./assets/Logo.png" alt="my logo">
             </div>
             <div class="list">
                 <h2 class="list-items">Home</h2>
@@ -20,7 +23,7 @@
                 <h2 class="list-items">Features</h2>
                 <h2 class="list-items">Pricing</h2>
                 <h2 class="list-items">About Us</h2>
-                <h2 class="list-items btn-nav">Regesiter Now</h2>
+                <button class="list-items btn-nav">Regesiter Now</button>
             </div>
         </nav>
         <div class="hero-section">
@@ -33,14 +36,14 @@
                 </button>
             </div>
             <div class="right-section">
-                <img src="./assets/server.jpg" alt="cloud">
+                <img src="./assets/server.jpg" class="cloud" alt="cloud">
             </div>
         </div>
     </section>
     <section class="section-2">
         
             <div class="left-section">
-                <img src="./assets/testing.jpg" alt="testing">   
+                <img src="./assets/testing.jpg" class="testing" alt="testing">   
             </div>
             <div class="right-section">
                 <h1 class="heading">We provide The Best
@@ -62,47 +65,57 @@
                 </button>
             </div>
             <div class="right-section">
-                <img src="./assets/call.jpg" alt="testing">   
+                <img src="./assets/call.jpg" class="call" alt="testing">   
             </div>
     </section>
     <section class="section-4">
+    <div class="section-4-box">
         <h1 class="service">Services We Provide At Thorhosting</h1>
-       <p>
-     Contact Niagahoster's Customer Success Agent at any time when there is a problem with your website. No need to wait long, your problem will be resolved quickly
-    </p>
+        <p>
+      Contact Niagahoster's Customer Success Agent at any time when there is a problem with your website. No need to wait long, your problem will be resolved quickly
+     </p>
+    </div>
     <div class="icon-box">
         <div class="card">
             <img src="./assets/cloud.jpg" alt="cloud">
+            <h1>Unlimited Hosting</h1>
             <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus quasi itaque, voluptates cupiditate quas repudiandae id, veniam cum magni mollitia ex est! Sed non, voluptatibus unde dolores debitis vel praesentium?
             </p>
         </div>
         <div class="card">
             <img src="./assets/cloud.jpg" alt="cloud">
+           <h1>
+            Cloud Hosting
+           </h1> 
             <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus quasi itaque, voluptates cupiditate quas repudiandae id, veniam cum magni mollitia ex est! Sed non, voluptatibus unde dolores debitis vel praesentium?
             </p>
         </div>
         <div class="card">
             <img src="./assets/wordpress.jpg" alt="cloud">
+            <h1>Wordpress Hosting </h1>
             <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus quasi itaque, voluptates cupiditate quas repudiandae id, veniam cum magni mollitia ex est! Sed non, voluptatibus unde dolores debitis vel praesentium?
             </p>
         </div>
         <div class="card">
             <img src="./assets/VPS.jpg" alt="cloud">
+            <h1>Fastest VPS</h1>
             <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus quasi itaque, voluptates cupiditate quas repudiandae id, veniam cum magni mollitia ex est! Sed non, voluptatibus unde dolores debitis vel praesentium?
             </p>
         </div>
         <div class="card">
             <img src="./assets/domain.jpg" alt="cloud">
+            <h1>Domain</h1>
             <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus quasi itaque, voluptates cupiditate quas repudiandae id, veniam cum magni mollitia ex est! Sed non, voluptatibus unde dolores debitis vel praesentium?
             </p>
         </div>
         <div class="card">
             <img src="./assets/website.jpg" alt="cloud">
+            <h1>Website Builder</h1>
             <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus quasi itaque, voluptates cupiditate quas repudiandae id, veniam cum magni mollitia ex est! Sed non, voluptatibus unde dolores debitis vel praesentium?
             </p>
@@ -115,7 +128,7 @@
         </h1>
         <div class="cards-price">
             <div class="price-card">
-                <h2 class="titile-text">
+                <h2 class="title-text">
                     Starter Pack
                 </h2>
                 <p>Suitable for beginners</p>
@@ -140,11 +153,16 @@
                 <p>Cancel Anytime</p>
                 <h2 class="btn btn-outline">Choose Plan</h2>
             </div>
-            <div class="price-card">
-                <h2 class="titile-text">
-                    Popular Packages
-                </h2>
-                <p>Suitable for company, Orgnization</p>
+            <div class="price-card popular">
+                <div class="wraped">
+                    <h2 class="title-text ">
+                        Popular Packages
+                    </h2>
+                    <p>Suitable for company, Orgnization</p>
+                </div>
+               <div class="p-body">
+
+                
                 <div class="checklists">
                     <div class="checklist">
                         <img src="./assets/check.svg" alt=""> <span>Up to 135000 Visitors/Month</span>
@@ -166,8 +184,9 @@
                 <p>Cancel Anytime</p>
                 <h2 class="btn btn-filled">Choose Plan</h2>
             </div>
+            </div>
             <div class="price-card">
-                <h2 class="titile-text">
+                <h2 class="title-text">
                     Business Package
                 </h2>
                 <p>Suitable for business website</p>
@@ -267,7 +286,7 @@
             <p>Press</p>
             <p>Community</p>
         </div>
-        <div class="link">
+        <div class="link">  
             <h4>Overview</h4>
             <p>Terms & Condition</p>
             <p>Privacy Policy</p>
