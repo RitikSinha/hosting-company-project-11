@@ -160,11 +160,14 @@ nav {
 .cards-price {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .price-card {
   background-color: #ffffff;
   padding: 30px 40px;
   border-radius: 10px;
+  margin-top: 20px;
 }
 .title-text {
   font-size: 1.8rem;

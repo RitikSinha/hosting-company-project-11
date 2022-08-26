@@ -1,0 +1,153 @@
+@media screen and (max-width: 1140px) {
+  .list {
+    display: none;
+  }
+}
+@media screen and (max-width: 940px) {
+  nav {
+    padding: 20px 10px;
+  }
+  .hero-section {
+    flex-direction: column-reverse;
+    padding: 80px 10px;
+  }
+  .cloud {
+    width: 100%;
+  }
+  .heading {
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .left-section p {
+    width: 100%;
+    text-align: center;
+  }
+  .left-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .btn-filled {
+    width: 70%;
+  }
+  /* section 2 */
+  .section-2 {
+    flex-direction: column;
+    padding: 80px 10px;
+  }
+  .testing {
+    width: 100%;
+  }
+  .right-section p {
+    width: 100%;
+    text-align: center;
+  }
+  .right-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  /* section-3 */
+  .section-3 {
+    flex-direction: column-reverse;
+    padding: 80px 10px;
+  }
+  .call {
+    width: 100%;
+  }
+  /* section 4 */
+  .section-4-box {
+    flex-direction: column;
+    padding: 40px 10px;
+  }
+  .section-4-box h1 {
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+  }
+  .section-4-box p {
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+  }
+  /* icon box */
+  .icon-box {
+    grid-template-columns: 1fr;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(231, 227, 227);
+    width: 100%;
+    border-radius: 20px;
+  }
+  .card p {
+    text-align: center;
+  }
+  .card h1 {
+    text-align: center;
+  }
+  /* prices section */
+  .prices {
+    padding: 40px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cards-price {
+    margin: 0 5%;
+  }
+  .price-card {
+    width: 80vw;
+  }
+  .btn-popular {
+    width: 60vw;
+  }
+  /* testimonial */
+  .testimonial {
+    padding: 40px 10px;
+  }
+  .testimonial-cards {
+    grid-template-columns: 1fr;
+  }
+  .testimonail-card {
+    width: 80vw;
+  }
+
+  /* register now */
+  .blue-wrapper {
+    flex-direction: column;
+    padding: 40px 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .left h1 {
+    text-align: center;
+  }
+  .left p {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  footer {
+    padding: 50px 10px 0 10px;
+    justify-content: space-between;
+    gap: 15px;
+  }
+
+  .footerLogo {
+    width: 100px;
+  }
+
+  footer > .text {
+    width: 40%;
+  }
+
+  .links {
+    display: none;
+  }
+}
